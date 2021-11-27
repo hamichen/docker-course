@@ -1,0 +1,13 @@
+# Global
+.history
+.env
+DB
+
+# Application
+web/composer.lock
+
+# PHPStorm
+.idea
+
+# VSCode
+.vscode
