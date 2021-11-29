@@ -2,12 +2,6 @@
 
 建立 `nginx` `php-fpm` `mairadb` `memcached` 等開發環境。
 
-The following three separate service containers will be used:
-
-- An `app` service running PHP 8 FPM.
-- A `db` service running MySQL.
-- An `nginx` service that uses the `app` service to parse PHP code before serving the application to the final user.
-
 ## 環境設定
 
 - copy env-sample 檔為 .env ，設定 Mairadb 及 mongodb 環境變數。
